@@ -46,7 +46,7 @@ docker compose up -d --build
 Servizi attivi:
 - Prometheus: http://localhost:9090
 - Grafana: http://localhost:3000 (Importate il file dashboard_grafana.json per visualizzare la dashboard configurata).
-- API Middleware: http://localhost:8000/docs2.
+- API Middleware: http://localhost:8000/docs.
  
 ### 2. Regole Metodologiche per i Test AI sulla VM
 Per evitare errori di misurazione dovuti alla granularità di campionamento dello scraper:
