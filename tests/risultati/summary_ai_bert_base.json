@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "machine": "DL380A",
+        "start_timestamp": 1792682926.086998,
+        "end_timestamp": 1792683226.10104,
+        "duration_seconds": 300,
+        "scrape_interval_seconds": 15
+    },
+    "energy_and_power": {
+        "total_energy_wh": 27.6,
+        "cpu_energy_wh": 4.7833,
+        "other_components_energy_wh": 22.8167,
+        "avg_total_power_w": 331.2,
+        "avg_cpu_power_w": 57.4,
+        "avg_baseload_other_w": 273.8
+    },
+    "compute_and_memory": {
+        "avg_cpu_utilization_pct": 20.1,
+        "max_cpu_utilization_pct": 23.0,
+        "avg_memory_bus_utilization_pct": 13.05,
+        "avg_cpu_frequency_mhz": 520.2
+    },
+    "thermal_and_cooling": {
+        "avg_server_delta_t_celsius": 5.3,
+        "avg_lcp_fan_speed_rpm": 1665.0,
+        "avg_lcp_compressor_current_a": 4.36
+    },
+    "sci_framework": {
+        "energy_kwh_E": 0.0276,
+        "carbon_intensity_g_kwh_I": 250.0,
+        "operational_emissions_g_co2eq_O": 6.9,
+        "embodied_emissions_M": "Excluded (Hardware lifecycle data not exposed by iLO)",
+        "functional_unit_R": 1920.0,
+        "sci_score_g_co2eq_per_R": 0.0036
+    }
+}
